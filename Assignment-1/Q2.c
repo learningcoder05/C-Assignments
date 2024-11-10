@@ -5,10 +5,11 @@ int main()
     printf("Enter two integers: ");
     scanf("%d %d", &num1, &num2);
 
-    int a = num1, b = num2;
+    int a = num1 // 24
+        ,
+        b = num2 ; // 36
     int temp;
-    while (b != 0)
-    {
+    while (b != 0){
         temp = b;
         b = a % b;
         a = temp;
@@ -18,4 +19,3 @@ int main()
 
     return 0;
 }
-
